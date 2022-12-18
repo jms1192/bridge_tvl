@@ -239,3 +239,27 @@ final_data_list1 = sorted(final_data_list1, key=lambda  x:(x['ASSET'], x['DAY'])
 create_premade_layout('2d-layout-1', final_data_list1)
 #create_premade_layout('pie-layout-1', final_data_list3)
 #create_premade_layout('pie-layout-1', final_data_list2)
+
+"""
+# Cross Chain Bridge User Metrics 
+Welcome to our on-chain analysis dashboard! In this dashboard, you can view the weekly users of the cross-chain bridges Hyphen, Hop, Stargate, Across, and Synaps. Additionally, you can see the breakdown of each bridge's weekly transfer volume by the chain where the bridge originated. In this analysis, a user is defined as a wallet. If a person uses a bridge from multiple chains, they will get double-counted."""
+
+create_premade_layout('2d-layout-1', final_data_list1)
+"""
+### Description  
+The graphs above shows the weekly users of cross chain bridges Hyphen, Hop, Stargate, Across, and Synaps
+"""
+
+create_premade_layout('pie-layout-1', final_data_list3)
+"""
+### Description  
+The graph above shows the weekly users of assets broken down by cross chain bridges Hyphen, Hop, Stargate, Across, and Synaps
+"""
+
+create_premade_layout('pie-layout-1', final_data_list2)
+"""
+### Description  
+The graph above shows the users of each bridge broken down by the chain where the bridge event strated. 
+"""
+
+

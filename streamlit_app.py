@@ -264,7 +264,7 @@ Welcome to our on-chain analysis dashboard! In this dashboard, you can view the 
 create_premade_layout('2d-layout-1', final_data_list1)
 """
 ### Description  
-The graphs above shows the weekly and average TVL of cross chain bridges Hyphen, Hop, Stargate, Across, and Synaps
+The graphs above shows the weekly and overall average TVL of cross chain bridges Hyphen, Hop, Stargate, Across, and Synaps in the past 90 days.
 """
 
 create_premade_layout('pie-layout-1', final_data_list3)
@@ -276,5 +276,5 @@ The graph above shows the weekly bridge TVL broken down by cross chain bridges H
 create_premade_layout('pie-layout-1', final_data_list2)
 """
 ### Description  
-The graph above shows the TVL of each bridge broken down by the chain where the bridge event strated. 
+The graph above shows the TVL of each bridge broken down by the chain. 
 """

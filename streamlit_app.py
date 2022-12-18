@@ -59,7 +59,7 @@ def create_premade_layout(layout, data1, type = ''):
         )
 
         chart2 = pd.DataFrame(
-            [sum(vol_data[x]) for x in vol_data],
+            [sum(vol_data[x])/12 for x in vol_data],
             index=[x for x in vol_data]
         )
 

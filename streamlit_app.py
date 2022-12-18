@@ -266,7 +266,7 @@ create_premade_layout('2d-layout-1', final_data_list1)
 The graphs above shows the weekly users of cross chain bridges Hyphen, Hop, Stargate, Across, and Synaps
 """
 
-#create_premade_layout('pie-layout-1', final_data_list3)
+create_premade_layout('pie-layout-1', final_data_list3)
 """
 ### Description  
 The graph above shows the weekly users of assets broken down by cross chain bridges Hyphen, Hop, Stargate, Across, and Synaps

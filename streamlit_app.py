@@ -129,7 +129,7 @@ def sort_flipside_api(link, bridge, type, chain):
               
 
             #print(x)
-            clean_dict = {'DAY':x['DAY'], 'TOKEN':token, 'BRIDGE':bridge, 'CHAIN':chain, 'VOLUME':amount}
+            clean_dict = {'DAY':day1, 'TOKEN':token, 'BRIDGE':bridge, 'CHAIN':chain, 'VOLUME':amount}
             data_list.append(clean_dict)
 
         return data_list

@@ -221,6 +221,15 @@ for x in full_volume_list:
             restructure_group_dict[x['DAY']][x['BRIDGE']] = x['VOLUME']
         else:
             restructure_group_dict[x['DAY']][x['BRIDGE']] = restructure_group_dict[x['DAY']][x['BRIDGE']] + x['VOLUME']
+            
+#clean dict 
+if len(restructure_group_dict) > 12: 
+    pairs = list(restructure_group_dict.items())
+    sorted_pairs = sorted(pairs, key=lambda x: x['DAY'])
+    repeat = len(restructure_group_dict) - 12
+    for x in range(repeat):
+        sorted_pairs.pop(0)
+restructure_group_dict = dict(sorted_pairs)
 
 for x in restructure_group_dict.keys():
     for y in restructure_group_dict[x].keys():

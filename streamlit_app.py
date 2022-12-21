@@ -195,12 +195,12 @@ volume_api_list = [
     {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/1bf70037-576f-424d-8c5e-22728d7ff6d3/data/latest', 'Bridge':'Hyphen', 'Chain':'Arbitrum'},
     {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/6a1c0cd6-ace1-4b8b-a585-9d1083df9c2f/data/latest', 'Bridge':'Hyphen', 'Chain':'BSC'},
 
-    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/6454ca7c-ae9c-417f-b04f-94b93a2037ab/data/latest', 'Bridge':'Synapse', 'Chain':'Optimism'},
-    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/17c9a813-3852-4763-b170-663ad644d009/data/latest', 'Bridge':'Synapse', 'Chain':'Ethereum'},
-    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/f48dfb62-f170-4e90-b7ba-f67c53893be0/data/latest', 'Bridge':'Synapse', 'Chain':'Polygon'},
-    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/e01a1cb8-c265-4b00-bdd6-50c52886862a/data/latest', 'Bridge':'Synapse', 'Chain':'Avalanche'},
-    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/1f68ee80-0c70-4a42-ac06-813f3b3947b2/data/latest', 'Bridge':'Synapse', 'Chain':'Arbitrum'},
-    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/5133379d-2864-46c8-b675-7c6b3ded7ca1/data/latest', 'Bridge':'Synapse', 'Chain':'BSC'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/40a97f66-196e-4b1c-becf-1d26457cf224/data/latest', 'Bridge':'Synapse', 'Chain':'Optimism'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/3313ad2e-95a0-418b-94b8-81b992627b3b/data/latest', 'Bridge':'Synapse', 'Chain':'Ethereum'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/a3e782ce-6f67-4d44-9555-b94110ec2de3/data/latest', 'Bridge':'Synapse', 'Chain':'Polygon'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/7928274b-039c-443c-ab31-32e8b099449e/data/latest', 'Bridge':'Synapse', 'Chain':'Avalanche'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/05a3d21c-bbd1-4bda-97ee-8607d760884b/data/latest', 'Bridge':'Synapse', 'Chain':'Arbitrum'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/310cbe64-415f-4403-aee6-5d14bc9571e2/data/latest', 'Bridge':'Synapse', 'Chain':'BSC'},
 
     {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/8a46a0f0-1d40-454a-a92b-1408aecba712/data/latest', 'Bridge':'Across', 'Chain':'Optimism'},
     {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/93904208-4440-4af8-a5fe-ffbc2c352525/data/latest', 'Bridge':'Across', 'Chain':'Ethereum'},

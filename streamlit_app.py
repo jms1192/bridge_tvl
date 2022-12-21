@@ -225,7 +225,7 @@ for x in full_volume_list:
 #clean dict 
 if len(restructure_group_dict) > 12: 
     pairs = list(restructure_group_dict.items())
-    sorted_pairs = sorted(pairs, key=lambda x: x['DAY'])
+    sorted_pairs = sorted(pairs, key=lambda x: x[0])
     repeat = len(restructure_group_dict) - 12
     for x in range(repeat):
         sorted_pairs.pop(0)

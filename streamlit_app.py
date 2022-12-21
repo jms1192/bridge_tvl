@@ -120,6 +120,13 @@ def sort_flipside_api(link, bridge, type, chain):
                 token = x['TOKEN']
             elif "SYMBOL" in x:
                 token = x['SYMBOL']
+                
+            ## time if 
+            if "WEEK" in x:
+                day1 = x['WEEK']
+            else:
+                day1 = x['DAY']
+              
 
             #print(x)
             clean_dict = {'DAY':x['DAY'], 'TOKEN':token, 'BRIDGE':bridge, 'CHAIN':chain, 'VOLUME':amount}

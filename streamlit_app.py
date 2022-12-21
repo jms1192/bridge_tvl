@@ -112,6 +112,9 @@ def sort_flipside_api(link, bridge, type, chain):
                 amount = x['TVL']
             elif "BALANCE" in x:
                 amount = x['BALANCE']
+            elif "BALANCE_USD" in x:    
+                amount = x['BALANCE_USD']    
+               
             ## token if 
             if "TOKEN" in x:
                 token = x['TOKEN']

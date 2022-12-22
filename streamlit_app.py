@@ -180,11 +180,11 @@ def sort_flipside_api(link, bridge, type, chain):
 
 ## sort all data here
 volume_api_list = [ 
-    #{'link':'https://node-api.flipsidecrypto.com/api/v2/queries/fdf997c5-7919-457d-9a1d-1e00d9893417/data/latest', 'Bridge':'Stargate', 'Chain':'Ethereum'},
-    #{'link':'https://node-api.flipsidecrypto.com/api/v2/queries/83dc8c1c-c201-4db8-ae5f-f09a018b622b/data/latest', 'Bridge':'Stargate', 'Chain':'Optimism'},
-    #{'link':'https://node-api.flipsidecrypto.com/api/v2/queries/be86d39e-03cd-4e64-ac15-fb73a1d465a9/data/latest', 'Bridge':'Stargate', 'Chain':'Polygon'},
-    #{'link':'https://node-api.flipsidecrypto.com/api/v2/queries/921cb1e3-ac92-44b1-abd6-7fa3a28a0103/data/latest', 'Bridge':'Stargate', 'Chain':'Avalanche'},
-    #{'link':'https://node-api.flipsidecrypto.com/api/v2/queries/94e61d0e-94fe-4106-b0de-dbd6aed26870/data/latest', 'Bridge':'Stargate', 'Chain':'Arbitrum'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/fdf997c5-7919-457d-9a1d-1e00d9893417/data/latest', 'Bridge':'Stargate', 'Chain':'Ethereum'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/83dc8c1c-c201-4db8-ae5f-f09a018b622b/data/latest', 'Bridge':'Stargate', 'Chain':'Optimism'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/be86d39e-03cd-4e64-ac15-fb73a1d465a9/data/latest', 'Bridge':'Stargate', 'Chain':'Polygon'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/921cb1e3-ac92-44b1-abd6-7fa3a28a0103/data/latest', 'Bridge':'Stargate', 'Chain':'Avalanche'},
+    {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/94e61d0e-94fe-4106-b0de-dbd6aed26870/data/latest', 'Bridge':'Stargate', 'Chain':'Arbitrum'},
 
     {'link':'https://node-api.flipsidecrypto.com/api/v2/queries/fdf997c5-7919-457d-9a1d-1e00d9893417/data/latest', 'Bridge':'Hop', 'Chain':'Ethereum'}
     
